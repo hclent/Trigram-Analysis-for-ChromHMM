@@ -4,8 +4,7 @@ Uses trigrams to analyze the 9 Cell Lines from ENCODE's ChromHMM. Project for Bi
 README File
 Heather Lent
 Updated 2-15-2016
-
-##############################################################
+----------------------------
 
 both_read.py
 
@@ -23,7 +22,7 @@ Sample of output:
 (n=0.0%, a=20.1666666667%, t=26.5%, g=25.8333333333%, c=27.5%)
 
 
-##############################################################
+-------------------------------------------
 
 9CellTypes.py
 
@@ -54,7 +53,7 @@ Sample of output: fd8b7bab9a92123cdcd7b8d8d76d8d8d8ddc
 
 This code is pre-processing for the 3promoters code, which does the trigram analysis
 
-##############################################################
+-------------------------------------------
 
 3promoters.py
 
@@ -73,7 +72,7 @@ but “2_Weak_Promoter, 10_Txn_Elongation, 3_Poised_Promoter” happens 0 times.
 
 The goal of this program is to take this information and make a transition table. 
 
-##############################################################
+-------------------------------------------
 
 3amino.py
 
