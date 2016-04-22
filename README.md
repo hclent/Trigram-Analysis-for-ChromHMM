@@ -49,7 +49,7 @@ Then the program converts the cell type into symbols (123456789abcdef)
 - 14_Repetitive/CNV == e
 - 15_Repetitive == f
 
-Sample of output: fd8b7bab9a92123cdcd7b8d8d76d8d8d8ddc
+Sample of output: 'fd8b7bab9a92123cdcd7b8d8d76d8d8d8ddc....'
 
 This code is pre-processing for the 3promoters code, which does the trigram analysis
 
@@ -57,13 +57,13 @@ This code is pre-processing for the 3promoters code, which does the trigram anal
 
 3promoters.py
 
-Takes the output of 9CellTypes.py and makes 3grams of the cell types, with counts.
+Takes the output of 9CellTypes.py and makes trigrams of the cell types, with counts.
 For any 3grams that do not exist in the output of 9CellsTypes.py, a datapoint is made with the value “0”.
 
 Example:
 ‘fd8b7bab9a’ becomes ['fd8', 'd8b', '8b7', 'b7b', '7ba']
 
-And then the 3grams are counted. 
+And then the trigrams are counted. 
 
 Sample of output: 'c3c': 2899, 'c3b': 1, '2a3': 0
 
