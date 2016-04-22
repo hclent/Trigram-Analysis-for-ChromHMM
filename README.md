@@ -33,21 +33,21 @@ For example the program would extract “15_Repetitive/CNV” from the line belo
 
 Then the program converts the cell type into symbols (123456789abcdef)
 
-1_Active_Promoter ———> 1
-2_Weak_Promoter —————> 2
-3_Poised_Promoter ———> 3
-4_Strong_Enhancer ———> 4
-5_Strong_Enhancer ———> 5
-6_Weak_Enhancer —————> 6
-7_Weak_Enhancer —————> 7
-8_Insulator —————————> 8
-9_Txn_Transition ————> 9
-10_Txn_Elongation ———> a
-11_Weak_Txn —————————> b
-12_Repressed ————————> c
-13_Heterochrom/lo ———> d
-14_Repetitive/CNV ———> e
-15_Repetitive ———————> f
+- 1_Active_Promoter == 1
+- 2_Weak_Promoter == 2
+- 3_Poised_Promoter == 3
+- 4_Strong_Enhancer == 4
+- 5_Strong_Enhancer == 5
+- 6_Weak_Enhancer == 6
+- 7_Weak_Enhancer == 7
+- 8_Insulator == 8
+- 9_Txn_Transition == 9
+- 10_Txn_Elongation == a
+- 11_Weak_Txn == b
+- 12_Repressed == c
+- 13_Heterochrom/lo == d
+- 14_Repetitive/CNV == e
+- 15_Repetitive == f
 
 Sample of output: fd8b7bab9a92123cdcd7b8d8d76d8d8d8ddc
 
